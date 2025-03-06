@@ -1,0 +1,156 @@
+/* CSS for the entire website */
+.
+  body {
+    background-color: #f0f0f0; /* Background color */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ada2a2; /* Header background color */
+    color: #ffffff; /* Header text color */
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #070606; /* Navigation background color */
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #0b0a0a; /* Navigation link color */
+    text-decoration: none;
+    margin: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: #ffffff; /* Article background color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #010000; /* Border for articles */
+}
+
+/* CSS for tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #4e4c4c;
+    padding: 8px;
+    text-align: left;
+}
+
+th, td,h2,h1,h3,header,nav{
+    background: none;
+    background-color: none;
+    /* background-color: #c9c7c7; */
+    color: #050505;
+}
+article,h1, h2, h3{
+    background-color: none;
+    background: none;
+}
+
+/* CSS for lists */
+ul, ol, li, img {
+    background: none;
+    color: #070606;
+    padding: 0 0 0 20px;
+}
+/* h2,h1, h3 {background-color:#b0b3b2;
+color: #050605;} */
+/* h1 {color:#030303} */
+p {color:#010101;}
+p.others {color: #80ff80;}
+h1, h2 {text-align:center;}
+div.b {
+  text-align: left;
+}
+head {
+    text-align: left;
+  }
+/* img {
+    float: left;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+  } */
+  body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+  footer{
+    margin-top: auto;
+}
+.button5 {
+    background-color: white;
+    color: rgb(252, 246, 246);
+    border: 2px solid #555555;
+  }
+  .button {
+    padding: 15px 25px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #f5f8f7;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .right {
+    border-radius: 4px;
+    background-color: #f7faf7;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 25px;
+    /* width: 200px; */
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  .right:hover {background-color: #3e8e41}
+  .right span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .right span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .right:hover span {
+    padding-right: 25px;
+  }
+  
+  .right:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
